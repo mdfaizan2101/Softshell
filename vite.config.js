@@ -4,5 +4,5 @@ import ghPages from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/your-repo-name/', // ⬅️ important: match GitHub repo name
+  base: '/Softsell/', // ⬅️ important: match GitHub repo name
 });
