@@ -1,0 +1,179 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero button {
+  background: white;
+  color: #182848;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.review {
+  max-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, textarea, button {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4b6cb7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat-toggle {
+  font-size: 24px;
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 14px;
+}
+
+.chat-box {
+  background: white;
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+}
+
+.chat-messages {
+  height: 80%;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-messages .bot {
+  text-align: left;
+}
+
+.chat-messages .user {
+  text-align: right;
+}
+
+/* src/components/HowItWorks.css */
+.how-it-works {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.how-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.how-card {
+  background-color: #f5f8ff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.how-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.how-card h3 {
+  font-size: 1.2rem;
+  color: #4b6cb7;
+  margin-bottom: 10px;
+}
+
+.how-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
